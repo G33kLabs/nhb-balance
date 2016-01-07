@@ -1,7 +1,7 @@
 {
   "name": "nhb-balance",
   "version": "1.0.0",
-  "description": "Precision Balance NHB service",
+  "description": "Precision Balance NHB nodejs service",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
   "author": "EventBots",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/G33kLabs/node-nhb-balance.git"
+    "url": "git+https://github.com/G33kLabs/nhb-balance.git"
   },
   "license": "ISC",
   "dependencies": {
