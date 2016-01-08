@@ -1,6 +1,6 @@
 {
   "name": "nhb-balance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Precision Balance NHB nodejs service",
   "main": "index.js",
   "scripts": {
