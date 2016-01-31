@@ -79,7 +79,7 @@ module.exports = class NHB300 extends EventEmitter
 
     # Watchdogou
     watchdog: ->
-        return if @lastUpdate and @options.watchdog and ((Date.now() - @lastUpdate) < @options.watchdog)
+        # return if @lastUpdate and @options.watchdog and ((Date.now() - @lastUpdate) < @options.watchdog)
         @emitDatas(_.extend({}, JSON.parse(@lastDatas or null), {
             watchdog: true
         }))
